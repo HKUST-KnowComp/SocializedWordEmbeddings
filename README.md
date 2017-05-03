@@ -3,6 +3,10 @@ Get Yelp dataset:
 
 https://www.yelp.com/dataset_challenge/dataset
 
+Get SVM tool:
+
+https://github.com/cjlin1/liblinear
+
 To complie swe.c
 
 `gcc swe.c -o swe -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result`
