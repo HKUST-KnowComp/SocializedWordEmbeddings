@@ -1,4 +1,8 @@
 # Socialized Word Embeddings
+Get Yelp dataset:
+
+https://www.yelp.com/dataset_challenge/dataset
+
 To complie swe.c
 
 `gcc swe.c -o swe -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result`
