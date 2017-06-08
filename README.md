@@ -23,7 +23,7 @@ You need to download the dataset and some tools:
   
   It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` in `Split_NN.jar` and `Split_PPL.jar`)
 
-## Sentiment and Perplexity
+## Sentiment Classification and Perplexity
 
 Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
 
