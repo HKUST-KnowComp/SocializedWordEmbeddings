@@ -24,7 +24,7 @@ You need to download the dataset and some tools:
 
 Modify `run.py` by specifying some arguments.
 
-## User Vector for Attention
+## User Vectors for Attention
 
 We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
 You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `SocializedWordEmbeddings/nn/run.sh`: 
