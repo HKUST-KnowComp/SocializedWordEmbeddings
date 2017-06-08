@@ -27,7 +27,7 @@ You need to download the dataset and some tools:
 
 Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
 
-* `--input`     Directory to yelp dataset
+* `--input`     Path to yelp dataset
 * `--para_lambda`     The trade off parameter between log-likelihood and regularization term
 * `--para_r`     The constraint of L2-norm of the user vector
 * `--yelp_round`     The round number of yelp data, e.g. {8,9}
