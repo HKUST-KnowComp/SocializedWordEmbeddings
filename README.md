@@ -2,9 +2,7 @@
 ---------------
 ## Preparation
 You need to download the dataset and some tools:
-* Download Yelp dataset
-
-https://www.yelp.com/dataset_challenge/dataset
+* Download [Yelp dataset] (https://www.yelp.com/dataset_challenge/dataset)
 
 * Extract data
 Get `json_to_csv_converter` at https://github.com/Yelp/dataset-examples
