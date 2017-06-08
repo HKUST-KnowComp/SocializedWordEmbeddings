@@ -5,15 +5,21 @@ You need to download the dataset and some tools:
 * Download [Yelp dataset](https://www.yelp.com/dataset_challenge/dataset)
 
 * Use [`json_to_csv_converter`](https://github.com/Yelp/dataset-examples) to convert the following dataset from json format to csv format:
+  
   yelp_academic_dataset_review.json
+  
   yelp_academic_dataset_user.json
 
 * [SVM](https://github.com/cjlin1/liblinear)
+  
   After downloading liblinear, you can refer to “Installation” to install SVM.
+  
   It is suggested that you put liblinear under the directory SocializedWordEmbeddings, otherwise, you have to change the default directory(SocializedWordEmbeddings/liblinear) in SocializedWordEmbeddings/sentiment/sentiment.py.
 
 * [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)
+  
   Only stanford-corenlp.jar is required. SocializedWordEmbeddings/preprocess/Split_NN.jar and    SocializedWordEmbeddings/preprocess/Split_PPL.jar need to reference stanford-corenlp.jar. 
+  
   It is suggested that after getting stanford-corenlp.jar, you put it under the directory SocializedWordEmbeddings/resources, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
 
 ## Sentiment and Perplexity
