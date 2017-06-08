@@ -27,6 +27,7 @@ Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
 ## User Vectors for Attention
 
 We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
+
 You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `SocializedWordEmbeddings/nn/run.sh`: 
 
 [1] add user and word embeddings by specifying `--user_embs` and `--embedding`.
