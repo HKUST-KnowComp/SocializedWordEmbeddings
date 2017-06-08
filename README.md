@@ -2,7 +2,8 @@
 ---------------
 ## Preparation
 You need to download the dataset and some tools:
-* Get Yelp dataset at 
+* Download Yelp dataset
+
 https://www.yelp.com/dataset_challenge/dataset
 
 * Extract data
@@ -44,8 +45,8 @@ You can simply re-implement our results of different settings (Table 5 in the pa
 
 ## Dependencies
 
-[Theano](http://deeplearning.net/software/theano/) >= 0.7 
-Python 2.7 
-[Numpy](http://www.numpy.org) 
-[Gensim](https://radimrehurek.com/gensim/install.html)
-[PrettyTable](https://pypi.python.org/pypi/PrettyTable)
+* [Theano](http://deeplearning.net/software/theano/) >= 0.7 
+* Python 2.7 
+* [Numpy](http://www.numpy.org) 
+* [Gensim](https://radimrehurek.com/gensim/install.html)
+* [PrettyTable](https://pypi.python.org/pypi/PrettyTable)
