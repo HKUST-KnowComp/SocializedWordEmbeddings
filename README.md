@@ -1,5 +1,5 @@
 # Socialized Word Embeddings
----------------
+
 ## Preparation
 You need to download the dataset and some tools:
 * Download [Yelp dataset](https://www.yelp.com/dataset_challenge/dataset)
@@ -18,7 +18,7 @@ You need to download the dataset and some tools:
 * Download [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)
   
   Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to reference `stanford-corenlp.jar`. 
-  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory SocializedWordEmbeddings/resources, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
+  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
 
 ## Sentiment and Perplexity
 
