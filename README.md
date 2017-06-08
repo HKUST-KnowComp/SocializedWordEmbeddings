@@ -2,11 +2,10 @@
 ---------------
 ## Preparation
 You need to download the dataset and some tools:
-* Download [Yelp dataset] (https://www.yelp.com/dataset_challenge/dataset)
+* Download [Yelp dataset](https://www.yelp.com/dataset_challenge/dataset)
 
-* Extract data
-Get `json_to_csv_converter` at https://github.com/Yelp/dataset-examples
-Convert the following dataset from json format to csv format:
+* Use [`json_to_csv_converter`](https://github.com/Yelp/dataset-examples)
+to convert the following dataset from json format to csv format:
 yelp_academic_dataset_review.json
 yelp_academic_dataset_user.json
 
