@@ -13,12 +13,14 @@ You need to download the dataset and some tools:
 * Download [LIBLINEAR](https://github.com/cjlin1/liblinear)
   
   After downloading `liblinear`, you can refer to `Installation` to install it.
+  
   It is suggested that you put `liblinear` under the directory `SocializedWordEmbeddings`.
 
 * Download [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)
   
   Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to reference `stanford-corenlp.jar`. 
-  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` to the path that contains `stanford-corenlp.jar`)
+  
+  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` to the path that contains `stanford-corenlp.jar`)
 
 ## Sentiment and Perplexity
 
