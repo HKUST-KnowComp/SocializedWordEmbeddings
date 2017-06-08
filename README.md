@@ -21,7 +21,7 @@ You need to download the dataset and some tools:
   Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to reference `stanford-corenlp.jar`. 
   
   
-  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` in `Split_NN.jar` and `Split_PPL.jar`)
+  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` in `Split_NN.jar` and `Split_PPL.jar`.
 
 ## Sentiment Classification and Perplexity
 
