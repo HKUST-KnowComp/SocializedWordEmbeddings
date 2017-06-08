@@ -4,7 +4,7 @@
 You need to download the dataset and some tools:
 * Download [Yelp dataset](https://www.yelp.com/dataset_challenge/dataset)
 
-* Use [`json_to_csv_converter`](https://github.com/Yelp/dataset-examples) to convert the following dataset from json format to csv format:
+* Convert following datasets from json format to csv format by using [`json_to_csv_converter.py`](https://github.com/Yelp/dataset-examples):
   
   yelp_academic_dataset_review.json
   
@@ -22,7 +22,7 @@ You need to download the dataset and some tools:
 
 ## Sentiment and Perplexity
 
-Modify `run.py` by specifying some arguments.
+Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
 
 ## User Vectors for Attention
 
