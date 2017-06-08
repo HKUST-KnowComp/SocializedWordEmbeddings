@@ -12,13 +12,13 @@ You need to download the dataset and some tools:
 
 * Download [LIBLINEAR](https://github.com/cjlin1/liblinear)
   
-  After downloading `liblinear`, you can refer to “Installation” to install it.
-  
-  It is suggested that you put `liblinear` under the directory `SocializedWordEmbeddings`, otherwise, you have to change the default directory(`SocializedWordEmbeddings/liblinear`) in `SocializedWordEmbeddings/sentiment/sentiment.py`.
+  After downloading `liblinear`, you can refer to `Installation` to install it.
+  It is suggested that you put `liblinear` under the directory `SocializedWordEmbeddings`.
 
 * Download [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)
-  Only `stanford-corenlp.jar` is required. SocializedWordEmbeddings/preprocess/Split_NN.jar and    SocializedWordEmbeddings/preprocess/Split_PPL.jar need to reference stanford-corenlp.jar. 
-  It is suggested that after getting stanford-corenlp.jar, you put it under the directory SocializedWordEmbeddings/resources, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
+  
+  Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to `reference stanford-corenlp.jar`. 
+  It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory SocializedWordEmbeddings/resources, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
 
 ## Sentiment and Perplexity
 
@@ -29,11 +29,11 @@ Modify `run.py` by specifying some arguments.
 We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
 You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `run.sh`: 
 
-[1] add user and word embeddings by specifying '--user_embs' and '--embedding'
+[1] add user and word embeddings by specifying `--user_embs` and `--embedding`.
 
-[2] add train/dev/test files by specifying '--train', '--dev', and '--test' respectively.
+[2] add train/dev/test files by specifying `--train`, `--dev`, and `--test` respectively.
 
-[3] three settings for our experiments could be achieved by specifying '--user_atten' and '--user_atten_base':
+[3] three settings for our experiments could be achieved by specifying `--user_atten` and `--user_atten_base`:
 
     setting '--user_atten 0' for 'Without attention'.
     
