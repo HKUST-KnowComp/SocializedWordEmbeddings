@@ -17,7 +17,7 @@ You need to download the dataset and some tools:
 
 * Download [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)
   
-  Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to `reference stanford-corenlp.jar`. 
+  Only `stanford-corenlp.jar` is required. `SocializedWordEmbeddings/preprocess/Split_NN.jar` and    `SocializedWordEmbeddings/preprocess/Split_PPL.jar` need to reference `stanford-corenlp.jar`. 
   It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory SocializedWordEmbeddings/resources, otherwise, you should modify the default Class-Path to the path that contains stanford-corenlp.jar)
 
 ## Sentiment and Perplexity
@@ -27,7 +27,7 @@ Modify `run.py` by specifying some arguments.
 ## User Vector for Attention
 
 We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
-You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `run.sh`: 
+You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `SocializedWordEmbeddings/run.sh`: 
 
 [1] add user and word embeddings by specifying `--user_embs` and `--embedding`.
 
