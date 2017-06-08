@@ -36,7 +36,7 @@ Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
 
 We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
 
-You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `SocializedWordEmbeddings/nn/run.sh`: 
+You can simply re-implement our results of different settings (Table 5 in the paper) by modifying the `SocializedWordEmbeddings/attention/run.sh`: 
 
 [1] add user and word embeddings by specifying `--user_embs` and `--embedding`.
 
