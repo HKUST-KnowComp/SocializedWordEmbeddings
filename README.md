@@ -26,7 +26,7 @@ You need to download the dataset and some tools:
 ## Preprocessing
 `cd SocializedWordEmbeddings/preprocess`
 
-Modify `SocializedWordEmbeddings/preprocess/run.py` by specifying `--input` (Path to yelp dataset).
+Modify `./run.py` by specifying `--input` (Path to yelp dataset).
 
 `python run.py`
 
