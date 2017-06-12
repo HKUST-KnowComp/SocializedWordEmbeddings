@@ -23,14 +23,26 @@ You need to download the dataset and some tools:
   
   It is suggested that after getting `stanford-corenlp.jar`, you put it under the directory `SocializedWordEmbeddings/resources`, otherwise, you should modify the default `Class-Path` in `Split_NN.jar` and `Split_PPL.jar`.
 
-## Sentiment Classification and Perplexity
+## Preprocessing
+`cd SocializedWordEmbeddings/preprocess`
+Modify `SocializedWordEmbeddings/preprocess/run.py` by specifying `--input` (Path to yelp dataset).
+`python run.py`
 
-Modify `SocializedWordEmbeddings/run.py` by specifying some arguments.
-
-* `--input`     Path to yelp dataset
+## Sentiment Classification
+`cd SocializedWordEmbeddings/sentiment`
+You may modify the following arguments:
 * `--para_lambda`     The trade off parameter between log-likelihood and regularization term
 * `--para_r`     The constraint of L2-norm of the user vector
 * `--yelp_round`     The round number of yelp data, e.g. {8,9}
+`python run.py`
+
+## Perplexity
+`cd SocializedWordEmbeddings/perplexity`
+You may modify the following arguments:
+* `--para_lambda`     The trade off parameter between log-likelihood and regularization term
+* `--para_r`     The constraint of L2-norm of the user vector
+* `--yelp_round`     The round number of yelp data, e.g. {8,9}
+`python run.py`
 
 ## User Vectors for Attention
 
