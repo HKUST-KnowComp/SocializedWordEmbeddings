@@ -33,7 +33,7 @@ Modify `SocializedWordEmbeddings/preprocess/run.py` by specifying `--input` (Pat
 ## Sentiment Classification
 `cd SocializedWordEmbeddings/sentiment`
 
-You may modify the following arguments `./run.py`:
+You may modify the following arguments in `./run.py`:
 
 * `--para_lambda`     The trade off parameter between log-likelihood and regularization term
 * `--para_r`     The constraint of L2-norm of the user vector
