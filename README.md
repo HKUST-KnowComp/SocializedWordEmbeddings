@@ -25,23 +25,30 @@ You need to download the dataset and some tools:
 
 ## Preprocessing
 `cd SocializedWordEmbeddings/preprocess`
+
 Modify `SocializedWordEmbeddings/preprocess/run.py` by specifying `--input` (Path to yelp dataset).
+
 `python run.py`
 
 ## Sentiment Classification
 `cd SocializedWordEmbeddings/sentiment`
-You may modify the following arguments:
+
+You may modify the following arguments `./run.py`:
+
 * `--para_lambda`     The trade off parameter between log-likelihood and regularization term
 * `--para_r`     The constraint of L2-norm of the user vector
 * `--yelp_round`     The round number of yelp data, e.g. {8,9}
+
 `python run.py`
 
 ## Perplexity
 `cd SocializedWordEmbeddings/perplexity`
-You may modify the following arguments:
+
+You may modify the following arguments in `./run.py`:
 * `--para_lambda`     The trade off parameter between log-likelihood and regularization term
 * `--para_r`     The constraint of L2-norm of the user vector
 * `--yelp_round`     The round number of yelp data, e.g. {8,9}
+
 `python run.py`
 
 ## User Vectors for Attention
